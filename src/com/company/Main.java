@@ -20,12 +20,12 @@ public class Main {
 
 	}
 
-	final String species;
+	String species;
 	private Double weight;
 	String name;
 	Boolean furry;
 
-	public Animals(String species) {
+	public void Animal(String species) {
 		this.species = species;
 		switch (this.species) {
 			case "dog":
