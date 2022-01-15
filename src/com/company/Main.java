@@ -16,6 +16,13 @@ public class Main {
 		dog.takeForAWalk();
 		dog.takeForAWalk();
 		dog.takeForAWalk();
+		Human person1 = new Human("Janusz");
+		person1.firstName = "Janusz";
+		person1.lastName = "Kowalski";
+		Car car1 = new Car("VW");
+		car1.model = "vw";
+		car1.producer = "golf";
+		car1.fuel ="disel";
 
 
 	}
@@ -59,5 +66,8 @@ public class Main {
 			System.out.println("Zwierzę już nie żyje!");
 		}
 	}
+
+
+
 
 }
